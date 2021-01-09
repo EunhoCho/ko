@@ -5,5 +5,5 @@ slug: talk
 category: blog
 menu: false
 submenu: true
-order: 4
+order: 2
 ---
