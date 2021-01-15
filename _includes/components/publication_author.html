@@ -1,0 +1,20 @@
+{% if include.author.size > 0 %}
+  {% assign names = "" %}
+  {% assign last_name = "" %}
+
+  {% for author in include.author %}
+    {% if names.size() > 0 %}
+      {% assign names = names | append: ", " | append: last_name %}
+    {% else %}
+      {% assign names = last_name %}
+    {% endif %}
+
+    {% if author == include.name %}
+{% assign last_name = "<span><strong>" | append: author | append: "</strong></span>" %}
+    {% else %}
+      {% assign last_name = "<span>" | append: author | append: "</span>" %}
+    {% endif %}
+
+  {% endfor %}
+  {{ names }}<span>, and </span>{{ last_name }}
+{% endif %}

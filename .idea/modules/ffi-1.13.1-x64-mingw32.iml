@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUBY_MODULE" version="4">
+  <component name="ModuleRunConfigurationManager">
+    <shared />
+  </component>
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../../vendor/bundle/ruby/2.7.0/gems/ffi-1.13.1-x64-mingw32" />
+    <orderEntry type="jdk" jdkName="ruby-2.7.2-p137" jdkType="RUBY_SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v2.2.5, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.4.4, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="kramdown (v2.3.0, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake (v13.0.3, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake-compiler (v1.0.9, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rake-compiler-dock (v1.1.0, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rexml (v3.2.4, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec (v3.10.0, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.10.1, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.10.1, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.10.1, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.10.1, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rubygems-tasks (v0.2.4, ruby-2.7.2-p137) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="yard (v0.9.26, ruby-2.7.2-p137) [gem]" level="application" />
+  </component>
+  <component name="RakeTasksCache">
+    <option name="myRootTask">
+      <RakeTaskImpl id="rake">
+        <subtasks>
+          <RakeTaskImpl description="Remove any temporary products" fullCommand="clean" id="clean" />
+          <RakeTaskImpl description="Remove any generated files" fullCommand="clobber" id="clobber" />
+          <RakeTaskImpl description="Compile all the extensions" fullCommand="compile" id="compile" />
+          <RakeTaskImpl id="compile">
+            <subtasks>
+              <RakeTaskImpl description="Compile ffi_c" fullCommand="compile:ffi_c" id="ffi_c" />
+              <RakeTaskImpl id="ffi_c">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="compile:ffi_c:x64-mingw32" id="x64-mingw32" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="compile:x64-mingw32" id="x64-mingw32" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Spawns an Interactive Ruby Console" fullCommand="console" id="console" />
+          <RakeTaskImpl id="doc">
+            <subtasks>
+              <RakeTaskImpl description="Generate YARD Documentation" fullCommand="doc:yard" id="yard" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="gem">
+            <subtasks>
+              <RakeTaskImpl description="build a windows gem without all the ceremony" fullCommand="gem:windows" id="windows" />
+              <RakeTaskImpl description="" fullCommand="gem:java" id="java" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Installs all built gem packages" fullCommand="install" id="install" />
+          <RakeTaskImpl id="java">
+            <subtasks>
+              <RakeTaskImpl description="Remove package products" fullCommand="java:clobber_package" id="clobber_package" />
+              <RakeTaskImpl description="Build the gem file ffi-1.13.1-java.gem" fullCommand="java:gem" id="gem" />
+              <RakeTaskImpl description="Build all the packages" fullCommand="java:package" id="package" />
+              <RakeTaskImpl description="Force a rebuild of the package files" fullCommand="java:repackage" id="repackage" />
+              <RakeTaskImpl description="" fullCommand="java:clobber" id="clobber" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="Build all packages" fullCommand="package" id="package" />
+          <RakeTaskImpl description="Performs a release" fullCommand="release" id="release" />
+          <RakeTaskImpl description="Run RSpec code examples" fullCommand="spec" id="spec" />
+          <RakeTaskImpl description="Test the extension" fullCommand="test" id="test" />
+          <RakeTaskImpl description="Create or update type information for platform x86_64-windows" fullCommand="types_conf" id="types_conf" />
+          <RakeTaskImpl id="E">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="$MODULE_DIR$/../../vendor/bundle/ruby/2.7.0/gems/ffi-1.13.1-x64-mingw32/lib/ffi/platform/x86_64-windows/types.conf" id="/Code/EunhoCho.github.io/vendor/bundle/ruby/2.7.0/gems/ffi-1.13.1-x64-mingw32/lib/ffi/platform/x86_64-windows/types.conf" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="bench">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="bench:all" id="all" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="build" id="build" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32" id="build/x64-mingw32" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/ffi_c" id="build/x64-mingw32/ffi_c" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/ffi_c/2.7.2" id="build/x64-mingw32/ffi_c/2.7.2" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/ffi_c/2.7.2/Makefile" id="build/x64-mingw32/ffi_c/2.7.2/Makefile" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/ffi_c/2.7.2/ffi_c.so" id="build/x64-mingw32/ffi_c/2.7.2/ffi_c.so" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage" id="build/x64-mingw32/stage" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext" id="build/x64-mingw32/stage/ext" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext/ffi_c" id="build/x64-mingw32/stage/ext/ffi_c" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext/ffi_c/extconf.rb" id="build/x64-mingw32/stage/ext/ffi_c/extconf.rb" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext/ffi_c/libffi" id="build/x64-mingw32/stage/ext/ffi_c/libffi" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext/ffi_c/libffi/config.guess" id="build/x64-mingw32/stage/ext/ffi_c/libffi/config.guess" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext/ffi_c/libffi/config.sub" id="build/x64-mingw32/stage/ext/ffi_c/libffi/config.sub" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext/ffi_c/libffi/configure" id="build/x64-mingw32/stage/ext/ffi_c/libffi/configure" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext/ffi_c/libffi/fficonfig.h.in" id="build/x64-mingw32/stage/ext/ffi_c/libffi/fficonfig.h.in" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext/ffi_c/libffi/install-sh" id="build/x64-mingw32/stage/ext/ffi_c/libffi/install-sh" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext/ffi_c/libffi/ltmain.sh" id="build/x64-mingw32/stage/ext/ffi_c/libffi/ltmain.sh" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/ext/ffi_c/libffi/missing" id="build/x64-mingw32/stage/ext/ffi_c/libffi/missing" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/lib" id="build/x64-mingw32/stage/lib" />
+          <RakeTaskImpl description="" fullCommand="build/x64-mingw32/stage/lib/ffi_c.so" id="build/x64-mingw32/stage/lib/ffi_c.so" />
+          <RakeTaskImpl id="build">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="build:ffi" id="ffi" />
+              <RakeTaskImpl description="" fullCommand="build:gem" id="gem" />
+              <RakeTaskImpl id="gem">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="build:gem:ffi" id="ffi" />
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="console">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="console:ffi" id="ffi" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="copy">
+            <subtasks>
+              <RakeTaskImpl id="ffi_c">
+                <subtasks>
+                  <RakeTaskImpl id="x64-mingw32">
+                    <subtasks>
+                      <RakeTaskImpl description="" fullCommand="copy:ffi_c:x64-mingw32:2.7.2" id="2.7.2" />
+                    </subtasks>
+                  </RakeTaskImpl>
+                </subtasks>
+              </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="cross" id="cross" />
+          <RakeTaskImpl description="" fullCommand="default" id="default" />
+          <RakeTaskImpl description="" fullCommand="distclean" id="distclean" />
+          <RakeTaskImpl description="" fullCommand="ext" id="ext" />
+          <RakeTaskImpl description="" fullCommand="ext/ffi_c" id="ext/ffi_c" />
+          <RakeTaskImpl description="" fullCommand="ext/ffi_c/libffi" id="ext/ffi_c/libffi" />
+          <RakeTaskImpl description="" fullCommand="ext/ffi_c/libffi/autogen.sh" id="ext/ffi_c/libffi/autogen.sh" />
+          <RakeTaskImpl description="" fullCommand="ext/ffi_c/libffi/config.guess" id="ext/ffi_c/libffi/config.guess" />
+          <RakeTaskImpl description="" fullCommand="ext/ffi_c/libffi/config.sub" id="ext/ffi_c/libffi/config.sub" />
+          <RakeTaskImpl description="" fullCommand="ext/ffi_c/libffi/configure" id="ext/ffi_c/libffi/configure" />
+          <RakeTaskImpl description="" fullCommand="ext/ffi_c/libffi/fficonfig.h.in" id="ext/ffi_c/libffi/fficonfig.h.in" />
+          <RakeTaskImpl description="" fullCommand="ext/ffi_c/libffi/install-sh" id="ext/ffi_c/libffi/install-sh" />
+          <RakeTaskImpl description="" fullCommand="ext/ffi_c/libffi/ltmain.sh" id="ext/ffi_c/libffi/ltmain.sh" />
+          <RakeTaskImpl description="" fullCommand="ext/ffi_c/libffi/missing" id="ext/ffi_c/libffi/missing" />
+          <RakeTaskImpl description="" fullCommand="gem" id="gem" />
+          <RakeTaskImpl id="install">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="install:ffi" id="ffi" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="install_gem" id="install_gem" />
+          <RakeTaskImpl description="" fullCommand="lib" id="lib" />
+          <RakeTaskImpl description="" fullCommand="lib/ffi_c.so" id="lib/ffi_c.so" />
+          <RakeTaskImpl description="" fullCommand="libffi" id="libffi" />
+          <RakeTaskImpl description="" fullCommand="native" id="native" />
+          <RakeTaskImpl id="native">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="native:ffi" id="ffi" />
+              <RakeTaskImpl id="ffi">
+                <subtasks>
+                  <RakeTaskImpl description="" fullCommand="native:ffi:x64-mingw32" id="x64-mingw32" />
+                </subtasks>
+              </RakeTaskImpl>
+              <RakeTaskImpl description="" fullCommand="native:x64-mingw32" id="x64-mingw32" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="pkg" id="pkg" />
+          <RakeTaskImpl description="" fullCommand="pkg/ffi-1.13.1-java" id="pkg/ffi-1.13.1-java" />
+          <RakeTaskImpl description="" fullCommand="pkg/ffi-1.13.1-java.gem" id="pkg/ffi-1.13.1-java.gem" />
+          <RakeTaskImpl description="" fullCommand="pkg/ffi-1.13.1-java.tgz" id="pkg/ffi-1.13.1-java.tgz" />
+          <RakeTaskImpl description="" fullCommand="pkg/ffi-1.13.1-java.zip" id="pkg/ffi-1.13.1-java.zip" />
+          <RakeTaskImpl description="" fullCommand="pkg/ffi-1.13.1.gem" id="pkg/ffi-1.13.1.gem" />
+          <RakeTaskImpl description="" fullCommand="publish" id="publish" />
+          <RakeTaskImpl description="" fullCommand="push" id="push" />
+          <RakeTaskImpl id="push">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="push:ffi" id="ffi" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="scm">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="scm:push" id="push" />
+              <RakeTaskImpl description="" fullCommand="scm:status" id="status" />
+              <RakeTaskImpl description="" fullCommand="scm:tag" id="tag" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="spec">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="spec:run" id="run" />
+              <RakeTaskImpl description="" fullCommand="spec:specdoc" id="specdoc" />
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl description="" fullCommand="validate" id="validate" />
+        </subtasks>
+      </RakeTaskImpl>
+    </option>
+  </component>
+  <component name="RubyModuleProperties">
+    <option name="autoCreated" value="true" />
+  </component>
+</module>

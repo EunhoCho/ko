@@ -1,0 +1,144 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+
+basics:
+  name: "Eunho Cho"
+  label: "Master Student of Software Engineering Lab"
+  picture: /assets/img/about.jpg
+  email: "ehcho@se.kaist.ac.kr"
+  phone: "+82-10-7702-7923"
+  website: "https://eunhocho.github.io"
+  summary: >
+    Research about system-of-systems, digital twin, and safety engineering.
+  location:
+    address: "291 Daehak-ro, N1 524"
+    postalCode: "34141"
+    city: "Yuseong-gu"
+    countryCode: "KR"
+    region: "Daejeon"
+#  profiles:
+#    - network: "Twitter"
+#      username: "RHendricksCEO"
+#      url: ""
+
+education:
+  - institution: "KAIST"
+    area: "School of Computing"
+    studyType: "Master"
+    startDate: "2020-03-01"
+    #    endDate: "2022-02-28"
+    gpa: "3.98"
+    max_gpa: "4.30"
+    advisor: "Doo-Hwan Bae"
+  - institution: "KAIST"
+    area: "School of Computing & School of Business and Technology Management"
+    studyType: "Bachelor"
+    startDate: "2015-03-01"
+    endDate: "2020-02-29"
+    gpa: "3.50"
+    max_gpa: "4.30"
+
+publications:
+  - name: "PASTA: An Efficient Proactive Adaptation Approach Based on Statistical Model Checking for Self-Adaptive Systems"
+    authors:
+      - "Yong-Jun Shin"
+      - "Eunho Cho"
+      - "Doo-Hwan Bae"
+    publisher: "24th International Conference on Fundamental Approaches to Software Engineering (FASE) 2021"
+    releaseDate: "2021-03-27"
+  - name: "Analysis and Application of Runtime Verification Property Specification Patterns of System of Systems"
+    nameKor: "시스템 오브 시스템즈의 런타임 검증 속성 명세 유형 분석 및 적용"
+    authors:
+      - "Eunho Cho"
+      - "Sumin Park"
+      - "Lingjun Liu"
+      - "Chua Kiat Kian Anthony"
+      - "Doo-Hwan Bae"
+    publisher: "Korea Software Congress (KSC) 2020"
+    releaseDate: "2020-12-21"
+    website: /assets/publications/Analysis+and+Application+of+Runtime+Verification+Property+Specification+Patterns+of+System+of+Systems.pdf
+  - name: "Comparative Analysis Fault-Attack Tree Based Safety and Security Assessment Approaches"
+    nameKor: "결함-공격 트리 기반 안전성 및 보안 분석 기법 비교"
+    authors:
+      - "Eunho Cho"
+      - "Yong-Jun Shin"
+      - "Eun-Kyoung Jee"
+      - "Doo-Hwan Bae"
+    publisher: "Korea Software Congress (KSC) 2019"
+    releaseDate: "2019-12-18"
+    website: /assets/publications/Comparative+Analysis+fault-attack+tree+based+safety+and+security+assessment+approaches.pdf
+  - name: "Data-Driven Traffic Environment System-Dynamics Model Generation & Inference Method"
+    nameKor: "데이터 기반 교통 흐름 시스템 다이내믹스 환경 모델 생성 및 추론 기법"
+    authors:
+      - "Tae-Hwan Kim"
+      - "Eunho Cho"
+      - "Yong-Jun Shin"
+      - "Doo-Hwan Bae"
+    publisher: "Korea Software Congress (KSC) 2018"
+    releaseDate: "2018-12-19"
+    highlights: "Outstanding Paper Award"
+    website: /assets/publications/Data-Driven+Traffic+Environment+System-Dynmaics+Model+Generation+&+Inference+Method.pdf
+#    summary: ""
+
+volunteer:
+  - organization: "배움을 나누는 사람들"
+    position: "Teacher"
+    website: "https://blog.naver.com/edusharebns/"
+    startDate: "2015-01-01"
+    endDate: "2016-02-29"
+    summary: "기초생활수급자, 차상위계층, 한 부모 가정의 학생들을 대상으로 교육 기부를 하는 비영리 단체"
+#    highlights:
+#      - "Awarded 'Teacher of the Month'"
+
+#work:
+#  - company: "Pied Piper"
+#    position: "CEO/President"
+#    website: "https://piedpiper.com"
+#    startDate: "2013-12-01"
+#    endDate: ""
+#    summary: >
+#      Text
+#    highlights:
+#      - ""
+
+#awards:
+#  - title: "Digital Compression Pioneer Award"
+#    date: "2014-11-01"
+#    awarder: "Techcrunch"
+#    summary: "There is no spoon."
+
+#references:
+#  - name: "Erlich Bachman"
+#    reference: >
+#      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#      Company proved that he will be a valuable addition to any company.
+
+# 5 or "5-5" or "native-or-bilingual-proficiency" or "native-speaker"
+# 4 or "4-5" or "full-professional-proficiency"
+# 3 or "3-5" or "professional-working-proficiency"
+# 2 or "2-5" or "limited-working-proficiency"
+# 1 or "1-5" or "elementary-proficiency"
+# 0 or "0-5" or "no-proficiency"
+languages:
+  - language: "Korean"
+    fluency: "Native Speaker"
+  - language: "English"
+    fluency: "Professional Working Proficiency"
+
+# 3 or "3-3" or "master" or "expert" or "senior" or "professional"
+# 2 or "2-3" or "intermediate" or "amateur"
+# 1 or "1-3" or "beginner" or "novice" or "junior"
+# 0 or "0-3"
+#skills:
+#  - name: "Web Development"
+#    level: "Master"
+#    keywords:
+#      - "HTML"
+
+interests:
+  - name: "Chorus"
+    keywords:
+      - "Bass-Baritone"
+      - "Gospels"
+      - "Musicals"
