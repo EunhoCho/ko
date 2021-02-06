@@ -57,6 +57,7 @@ publications:
       - "Doo-Hwan Bae"
     publisher: "Korea Software Congress (KSC) 2020"
     releaseDate: "2020-12-21"
+    highlights: "Outstanding Presentation Award"
     website: /assets/publications/Analysis+and+Application+of+Runtime+Verification+Property+Specification+Patterns+of+System+of+Systems.pdf
   - name: "Comparative Analysis Fault-Attack Tree Based Safety and Security Assessment Approaches"
     nameKor: "결함-공격 트리 기반 안전성 및 보안 분석 기법 비교"
