@@ -40,6 +40,14 @@ education:
     max_gpa: "4.30"
 
 publications:
+  - name: "A Modeling Method to Represent Geographical Information of a System-of-Systems"
+    authors:
+      - "Young-Min Baek"
+      - "Eunho Cho"
+      - "Yong-Jun Shin"
+      - "Doo-Hwan Bae"
+    publisher: "16th Annual System of Systems Engineering Conference (SoSE) 2021"
+    releaseDate: "2021-06-14"
   - name: "PASTA: An Efficient Proactive Adaptation Approach Based on Statistical Model Checking for Self-Adaptive Systems"
     authors:
       - "Yong-Jun Shin"
@@ -47,6 +55,7 @@ publications:
       - "Doo-Hwan Bae"
     publisher: "24th International Conference on Fundamental Approaches to Software Engineering (FASE) 2021"
     releaseDate: "2021-03-27"
+    website: /assets/publications/PASTA+An+Efficient+Proactive+Adaptation+Approach+Based+on+Statistical+Model+Checking+for+Self-Adaptive+Systems.pdf
   - name: "Analysis and Application of Runtime Verification Property Specification Patterns of System of Systems"
     nameKor: "시스템 오브 시스템즈의 런타임 검증 속성 명세 유형 분석 및 적용"
     authors:
