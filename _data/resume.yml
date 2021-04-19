@@ -40,6 +40,15 @@ education:
     max_gpa: "4.30"
 
 publications:
+  - name: "DNN Model Deployment on Distributed Edges"
+    authors:
+      - "Eunho Cho"
+      - "Juyeon Yoon"
+      - "Daehyeon Back"
+      - "Dongman Lee"
+      - "Doo-Hwan Bae"
+    publisher: "International Workshop on Big data driven Edge Cloud Services (BECS) 2021"
+    releaseDate: "2021-06-18"
   - name: "A Modeling Method to Represent Geographical Information of a System-of-Systems"
     authors:
       - "Young-Min Baek"
@@ -55,7 +64,7 @@ publications:
       - "Doo-Hwan Bae"
     publisher: "24th International Conference on Fundamental Approaches to Software Engineering (FASE) 2021"
     releaseDate: "2021-03-27"
-    website: /assets/publications/PASTA+An+Efficient+Proactive+Adaptation+Approach+Based+on+Statistical+Model+Checking+for+Self-Adaptive+Systems.pdf
+    website: /assets/publications/FASE2021.pdf
   - name: "Analysis and Application of Runtime Verification Property Specification Patterns of System of Systems"
     nameKor: "시스템 오브 시스템즈의 런타임 검증 속성 명세 유형 분석 및 적용"
     authors:
@@ -67,7 +76,7 @@ publications:
     publisher: "Korea Software Congress (KSC) 2020"
     releaseDate: "2020-12-21"
     highlights: "Outstanding Presentation Award"
-    website: /assets/publications/Analysis+and+Application+of+Runtime+Verification+Property+Specification+Patterns+of+System+of+Systems.pdf
+    website: /assets/publications/KSC2020.pdf
   - name: "Comparative Analysis Fault-Attack Tree Based Safety and Security Assessment Approaches"
     nameKor: "결함-공격 트리 기반 안전성 및 보안 분석 기법 비교"
     authors:
@@ -77,7 +86,7 @@ publications:
       - "Doo-Hwan Bae"
     publisher: "Korea Software Congress (KSC) 2019"
     releaseDate: "2019-12-18"
-    website: /assets/publications/Comparative+Analysis+fault-attack+tree+based+safety+and+security+assessment+approaches.pdf
+    website: /assets/publications/KSC2019.pdf
   - name: "Data-Driven Traffic Environment System-Dynamics Model Generation & Inference Method"
     nameKor: "데이터 기반 교통 흐름 시스템 다이내믹스 환경 모델 생성 및 추론 기법"
     authors:
@@ -88,7 +97,7 @@ publications:
     publisher: "Korea Software Congress (KSC) 2018"
     releaseDate: "2018-12-19"
     highlights: "Outstanding Paper Award"
-    website: /assets/publications/Data-Driven+Traffic+Environment+System-Dynmaics+Model+Generation+&+Inference+Method.pdf
+    website: /assets/publications/KSC2018.pdf
 #    summary: ""
 
 volunteer:
