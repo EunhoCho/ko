@@ -12,22 +12,23 @@ image: /assets/img/about.jpg
 
 full_column:
   - education
+  - work
+  - volunteer
+  - awards
+  - languages
+  - skills
   - publications
+  - project
 
 left_column:
-  - volunteer
-  - work
-  - awards
   - references
 
 right_column:
-  - languages
-  - skills
   - interests
 
 no_language_icons: false
 no_skill_icons: false
 buttons:
   print: true
-  json: /assets/resume.json
+  pdf: /assets/resume.pdf
 ---

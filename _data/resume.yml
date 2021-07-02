@@ -4,15 +4,15 @@
 
 basics:
   name: "Eunho Cho"
-  label: "Master Student of Software Engineering Lab"
+  label: "Master Student of Software Engineering Lab, School of Computing, KAIST"
   picture: /assets/img/about.jpg
   email: "ehcho@se.kaist.ac.kr"
   phone: "+82-10-7702-7923"
   website: "https://eunhocho.github.io"
   summary: >
-    Research about system-of-systems, digital twin, and safety engineering.
+    Research about system-of-systems, digital twin, cyber-physical system.
   location:
-    address: "291 Daehak-ro, N1 524"
+    address: "N1 524, 291 Daehak-ro"
     postalCode: "34141"
     city: "Yuseong-gu"
     countryCode: "KR"
@@ -39,78 +39,24 @@ education:
     gpa: "3.50"
     max_gpa: "4.30"
 
-publications:
-  - name: "DNN Model Deployment on Distributed Edges"
-    authors:
-      - "Eunho Cho"
-      - "Juyeon Yoon"
-      - "Daehyeon Back"
-      - "Dongman Lee"
-      - "Doo-Hwan Bae"
-    publisher: "International Workshop on Big data driven Edge Cloud Services (BECS) 2021"
-    releaseDate: "2021-06-18"
-  - name: "A Modeling Method to Represent Geographical Information of a System-of-Systems"
-    authors:
-      - "Young-Min Baek"
-      - "Eunho Cho"
-      - "Yong-Jun Shin"
-      - "Doo-Hwan Bae"
-    publisher: "16th Annual System of Systems Engineering Conference (SoSE) 2021"
-    releaseDate: "2021-06-14"
-  - name: "PASTA: An Efficient Proactive Adaptation Approach Based on Statistical Model Checking for Self-Adaptive Systems"
-    authors:
-      - "Yong-Jun Shin"
-      - "Eunho Cho"
-      - "Doo-Hwan Bae"
-    publisher: "24th International Conference on Fundamental Approaches to Software Engineering (FASE) 2021"
-    releaseDate: "2021-03-27"
-    website: /assets/publications/FASE2021.pdf
-  - name: "Analysis and Application of Runtime Verification Property Specification Patterns of System of Systems"
-    nameKor: "시스템 오브 시스템즈의 런타임 검증 속성 명세 유형 분석 및 적용"
-    authors:
-      - "Eunho Cho"
-      - "Sumin Park"
-      - "Lingjun Liu"
-      - "Chua Kiat Kian Anthony"
-      - "Doo-Hwan Bae"
-    publisher: "Korea Software Congress (KSC) 2020"
-    releaseDate: "2020-12-21"
-    highlights: "Outstanding Presentation Award"
-    website: /assets/publications/KSC2020.pdf
-  - name: "Comparative Analysis Fault-Attack Tree Based Safety and Security Assessment Approaches"
-    nameKor: "결함-공격 트리 기반 안전성 및 보안 분석 기법 비교"
-    authors:
-      - "Eunho Cho"
-      - "Yong-Jun Shin"
-      - "Eun-Kyoung Jee"
-      - "Doo-Hwan Bae"
-    publisher: "Korea Software Congress (KSC) 2019"
-    releaseDate: "2019-12-18"
-    website: /assets/publications/KSC2019.pdf
-  - name: "Data-Driven Traffic Environment System-Dynamics Model Generation & Inference Method"
-    nameKor: "데이터 기반 교통 흐름 시스템 다이내믹스 환경 모델 생성 및 추론 기법"
-    authors:
-      - "Tae-Hwan Kim"
-      - "Eunho Cho"
-      - "Yong-Jun Shin"
-      - "Doo-Hwan Bae"
-    publisher: "Korea Software Congress (KSC) 2018"
-    releaseDate: "2018-12-19"
-    highlights: "Outstanding Paper Award"
-    website: /assets/publications/KSC2018.pdf
-#    summary: ""
-
-volunteer:
-  - organization: "배움을 나누는 사람들"
-    position: "Teacher"
-    website: "https://blog.naver.com/edusharebns/"
-    startDate: "2015-01-01"
-    endDate: "2016-02-29"
-    summary: "기초생활수급자, 차상위계층, 한 부모 가정의 학생들을 대상으로 교육 기부를 하는 비영리 단체"
-#    highlights:
-#      - "Awarded 'Teacher of the Month'"
-
-#work:
+work:
+  - company: "KAIST"
+    position: "Teaching Assistant"
+    startDate: "2018-09-01"
+    endDate: "2021-06-30"
+    highlights:
+      - "CS101"
+      - "CS350"
+  - company: "IFE"
+    position: "Intern"
+    startDate: "2018-06-01"
+    endDate: "2018-08-31"
+    website: "https://ife.no"
+  - company: "Kakaopage"
+    position: "Intern"
+    startDate: "2017-12-21"
+    endDate: "2018-02-20"
+    website: "https://kakaoent.com"
 #  - company: "Pied Piper"
 #    position: "CEO/President"
 #    website: "https://piedpiper.com"
@@ -121,17 +67,35 @@ volunteer:
 #    highlights:
 #      - ""
 
-#awards:
+volunteer:
+  - organization: "EduShare (BNS, 배움을 나누는 사람들)"
+    position: "Teacher"
+    website: "https://blog.naver.com/edusharebns/"
+    startDate: "2015-01-01"
+    endDate: "2016-02-29"
+    summary: "A non-profit organization that brings educational donations for students from recipient of basic living"
+#    highlights:
+#      - "Awarded 'Teacher of the Month'"
+
+awards:
+  - title: "Outstanding Presentation Award"
+    date: "2020-12-22"
+    awarder: "Korea Software Congress (KSC) 2020"
+  - title: "Graduate Student Scholarship"
+    startDate: "2020-03-01"
+    endDate: "2022-02-28"
+    awarder: "Korean Government"
+  - title: "Outstanding Paper Award"
+    date: "2018-12-23"
+    awarder: "Korea Software Congress (KSC) 2018"
+  - title: "Korean Government Scholarship"
+    startDate: "2015-03-01"
+    endDate: "2020-02-28"
+    awarder: "Korean Government"
 #  - title: "Digital Compression Pioneer Award"
 #    date: "2014-11-01"
 #    awarder: "Techcrunch"
 #    summary: "There is no spoon."
-
-#references:
-#  - name: "Erlich Bachman"
-#    reference: >
-#      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-#      Company proved that he will be a valuable addition to any company.
 
 # 5 or "5-5" or "native-or-bilingual-proficiency" or "native-speaker"
 # 4 or "4-5" or "full-professional-proficiency"
@@ -149,15 +113,108 @@ languages:
 # 2 or "2-3" or "intermediate" or "amateur"
 # 1 or "1-3" or "beginner" or "novice" or "junior"
 # 0 or "0-3"
-#skills:
-#  - name: "Web Development"
-#    level: "Master"
-#    keywords:
-#      - "HTML"
+skills:
+  - name: "Python"
+    level: "3-3"
+  - name: "Java"
+    level: "2-3"
+  - name: "PHP"
+    level: "2-3"
+  - name: "MariaDB"
+    level: "2-3"
+  - name: "C"
+    level: "1-3"
+  - name: "C++"
+    level: "1-3"
+  - name: "Javascript"
+    level: "1-3"
+  - name: "NGINX"
+    level: "1-3"
 
-interests:
-  - name: "Chorus"
-    keywords:
-      - "Bass-Baritone"
-      - "Gospels"
-      - "Musicals"
+publications:
+  - name: "A Modeling Method to Represent Geographical Information of a System-of-Systems"
+    authors:
+      - "Young-Min Baek"
+      - "Eunho Cho"
+      - "Yong-Jun Shin"
+      - "Doo-Hwan Bae"
+    publisher: "16th Annual System of Systems Engineering Conference (SoSE) 2021"
+    releaseDate: "2021-06-14"
+  - name: "DNN Model Deployment on Distributed Edges"
+    authors:
+      - "Eunho Cho"
+      - "Juyeon Yoon"
+      - "Daehyeon Back"
+      - "Dongman Lee"
+      - "Doo-Hwan Bae"
+    publisher: "International Workshop on Big data driven Edge Cloud Services (BECS) 2021"
+    releaseDate: "2021-05-18"
+  - name: "PASTA: An Efficient Proactive Adaptation Approach Based on Statistical Model Checking for Self-Adaptive Systems"
+    authors:
+      - "Yong-Jun Shin"
+      - "Eunho Cho"
+      - "Doo-Hwan Bae"
+    publisher: "24th International Conference on Fundamental Approaches to Software Engineering (FASE) 2021"
+    releaseDate: "2021-03-27"
+    website: "https://eunhocho.github.io/assets/publications/FASE2021.pdf"
+  - name: "Analysis and Application of Runtime Verification Property Specification Patterns of System of Systems"
+    nameKor: "시스템 오브 시스템즈의 런타임 검증 속성 명세 유형 분석 및 적용"
+    authors:
+      - "Eunho Cho"
+      - "Sumin Park"
+      - "Lingjun Liu"
+      - "Chua Kiat Kian Anthony"
+      - "Doo-Hwan Bae"
+    publisher: "Korea Software Congress (KSC) 2020"
+    releaseDate: "2020-12-21"
+    highlights: "Outstanding Presentation Award"
+    website: "https://eunhocho.github.io/assets/publications/KSC2020.pdf"
+  - name: "Comparative Analysis Fault-Attack Tree Based Safety and Security Assessment Approaches"
+    nameKor: "결함-공격 트리 기반 안전성 및 보안 분석 기법 비교"
+    authors:
+      - "Eunho Cho"
+      - "Yong-Jun Shin"
+      - "Eun-Kyoung Jee"
+      - "Doo-Hwan Bae"
+    publisher: "Korea Software Congress (KSC) 2019"
+    releaseDate: "2019-12-18"
+    website: "https://eunhocho.github.io/assets/publications/KSC2019.pdf"
+  - name: "Data-Driven Traffic Environment System-Dynamics Model Generation & Inference Method"
+    nameKor: "데이터 기반 교통 흐름 시스템 다이내믹스 환경 모델 생성 및 추론 기법"
+    authors:
+      - "Tae-Hwan Kim"
+      - "Eunho Cho"
+      - "Yong-Jun Shin"
+      - "Doo-Hwan Bae"
+    publisher: "Korea Software Congress (KSC) 2018"
+    releaseDate: "2018-12-19"
+    highlights: "Outstanding Paper Award"
+    website: "https://eunhocho.github.io/assets/publications/KSC2018.pdf"
+#    summary: ""
+
+projects:
+  - name: "Development of Dependable and Highly Usable Big Data Platform, and Analysis and Prediction Services Technology in Edge Clouds"
+    nameKor: "엣지 클라우드에서 고신뢰 고사용성 빅데이터 플랫폼 및 분석 예측 서비스 기술 개발"
+    giver: "Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT, Korea"
+    startDate: "2020-07-01"
+    endDate: ""
+  - name: "(SW STAR LAB) Software R&D for Model-Based Analysis and Verification of Higher-Order Large Complex System"
+    nameKor: "(SW 스타랩) 모델 기반의 초대형 복잡 시스템 분석 및 검증 SW 개발"
+    giver: "Institute for Information & communications Technology Promotion (IITP), Ministry of Science, ICT and Future Planning, Korea"
+    startDate: "2020-03-01"
+    endDate: ""
+#    website: "https://piedpiper.com"
+
+
+#references:
+#  - name: "Erlich Bachman"
+#    reference: >
+#      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#      Company proved that he will be a valuable addition to any company.
+
+#interests:
+#  - name: "Chorus"
+#    keywords:
+#      - "Bass-Baritone"
+#      - "Gospels"
+#      - "Musicals"

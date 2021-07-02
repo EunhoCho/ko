@@ -118,7 +118,7 @@ resume:
   email:               Email
   phone:               Phone
   website:             Website
-  work:                Experience
+  work:                Work Experience
   work_title:          <!--position--> at <!--company-->
   highlights:          Highlights
   volunteer:           Volunteer
@@ -126,7 +126,7 @@ resume:
   education:           Education
   education_title:     <!--study_type--> in <!--area--> from <!--institution-->
   courses:             Courses
-  awards:              Awards
+  awards:              Honors and Awards
   awards_title:        <!--title--> from <!--awarder-->
   publications:        Publications
   publications_title:  <!--name-->

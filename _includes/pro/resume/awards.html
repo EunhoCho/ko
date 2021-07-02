@@ -2,7 +2,7 @@
 <section>
   <div class="npb">
   <h2 id="awards" class="h3 hr-bottom">
-    {{ strings.resume.awards | default:"Awards" }}
+    {{ strings.resume.awards | default:"Honors and Awards" }}
     <span class="symbol {{ icons.awards | default:'icon-trophy' }}"></span>
   </h2>
   {% for awa in resume.awards %}
@@ -12,6 +12,11 @@
         <p class="faded">
           <time datetime="{{ awa.date | date_to_xmlschema }}">{{ awa.date | date:from_to_format }}</time>
         </p>
+      {% endif %}
+      {% if awa.startDate.size > 0 %}
+      <p class="faded">
+        {% include components/from-to.html from=awa.startDate to=awa.endDate format=from_to_format %}
+      </p>
       {% endif %}
       <h3 class="h4 faded" property="award">
         {% capture title %}<span class="bc">{{ awa.title }}</span>{% endcapture %}
