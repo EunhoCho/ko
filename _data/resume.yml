@@ -10,7 +10,7 @@ basics:
   phone: "+82-10-7702-7923"
   website: "https://eunhocho.github.io"
   summary: >
-    Research about system-of-systems, digital twin, cyber-physical system.
+    Research about self-adaptive system, digital twin, cyber-physical system, system-of-systems.
   location:
     address: "N1 524, 291 Daehak-ro"
     postalCode: "34141"
@@ -27,7 +27,7 @@ education:
     area: "School of Computing"
     studyType: "Master"
     startDate: "2020-03-01"
-    #    endDate: "2022-02-28"
+    endDate: "2022-02-28"
     gpa: "3.98"
     max_gpa: "4.30"
     advisor: "Doo-Hwan Bae"
@@ -140,6 +140,7 @@ publications:
       - "Doo-Hwan Bae"
     publisher: "16th Annual System of Systems Engineering Conference (SoSE) 2021"
     releaseDate: "2021-06-14"
+    website: "https://eunhocho.github.io/assets/publications/SoSE2021.pdf"
   - name: "DNN Model Deployment on Distributed Edges"
     authors:
       - "Eunho Cho"
@@ -149,6 +150,7 @@ publications:
       - "Doo-Hwan Bae"
     publisher: "International Workshop on Big data driven Edge Cloud Services (BECS) 2021"
     releaseDate: "2021-05-18"
+    website: "https://eunhocho.github.io/assets/publications/BECS2021.pdf"
   - name: "PASTA: An Efficient Proactive Adaptation Approach Based on Statistical Model Checking for Self-Adaptive Systems"
     authors:
       - "Yong-Jun Shin"
