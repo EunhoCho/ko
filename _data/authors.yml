@@ -3,12 +3,12 @@
 # Change `author1` to your shortname.
 author1:
   name: Eunho Cho
-  email: ehcho@se.kaist.ac.kr
+  email: ehcho@kaist.ac.kr
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about: |
-    Master Student of Software Engineering Lab, KAIST
+    Ph.D. Student of Web Engineering Lab, KAIST
 
   # This photo will be used in the about section
   picture:
@@ -24,7 +24,7 @@ author1:
   social:
     # twitter:         <username>
     github: EunhoCho
-    email: ehcho@se.kaist.ac.kr
+    email: ehcho@kaist.ac.kr
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
