@@ -4,15 +4,15 @@
 
 basics:
   name: "Eunho Cho"
-  label: "Master Student of Software Engineering Lab, School of Computing, KAIST"
+  label: "Ph.D. Student of Web Engineering Lab, School of Computing, KAIST"
   picture: /assets/img/about.jpg
-  email: "ehcho@se.kaist.ac.kr"
+  email: "ehcho@kaist.ac.kr"
   phone: "+82-10-7702-7923"
   website: "https://eunhocho.github.io"
   summary: >
     Research about self-adaptive system, digital twin, cyber-physical system, system-of-systems.
   location:
-    address: "N1 524, 291 Daehak-ro"
+    address: "N1 522, 291 Daehak-ro"
     postalCode: "34141"
     city: "Yuseong-gu"
     countryCode: "KR"
@@ -25,11 +25,16 @@ basics:
 education:
   - institution: "KAIST"
     area: "School of Computing"
+    studyType: "Ph.D."
+    startDate: "2022-03-01"
+    gpa: "3.98"
+    max_gpa: "4.30"
+    advisor: "In-Young Ko"
+  - institution: "KAIST"
+    area: "School of Computing"
     studyType: "Master"
     startDate: "2020-03-01"
     endDate: "2022-02-28"
-    gpa: "3.98"
-    max_gpa: "4.30"
     advisor: "Doo-Hwan Bae"
   - institution: "KAIST"
     area: "School of Computing & School of Business and Technology Management"
@@ -43,7 +48,6 @@ work:
   - company: "KAIST"
     position: "Teaching Assistant"
     startDate: "2018-09-01"
-    endDate: "2021-06-30"
     highlights:
       - "CS101"
       - "CS350"
