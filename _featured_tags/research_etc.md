@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Safety
-slug: safety
+title: Etc
+slug: etc
 category: research
 menu: false
 submenu: true

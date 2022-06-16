@@ -10,7 +10,7 @@ basics:
   phone: "+82-10-7702-7923"
   website: "https://eunhocho.github.io"
   summary: >
-    Research about self-adaptive system, digital twin, cyber-physical system, system-of-systems.
+    Research about SE4AI, Cyber-Physical System, Self-Adaptive System, System of Systems.
   location:
     address: "N1 522, 291 Daehak-ro"
     postalCode: "34141"
@@ -85,13 +85,12 @@ awards:
   - title: "Outstanding Presentation Award"
     date: "2020-12-22"
     awarder: "Korea Software Congress (KSC) 2020"
-  - title: "Graduate Student Scholarship"
-    startDate: "2020-03-01"
-    endDate: "2022-02-28"
-    awarder: "Korean Government"
   - title: "Outstanding Paper Award"
     date: "2018-12-23"
     awarder: "Korea Software Congress (KSC) 2018"
+  - title: "Graduate Student Scholarship"
+    startDate: "2020-03-01"
+    awarder: "Korean Government"
   - title: "Korean Government Scholarship"
     startDate: "2015-03-01"
     endDate: "2020-02-28"
@@ -118,24 +117,26 @@ languages:
 # 1 or "1-3" or "beginner" or "novice" or "junior"
 # 0 or "0-3"
 skills:
-  - name: "Python"
+  - name: "Development"
     level: "3-3"
-  - name: "Java"
-    level: "2-3"
-  - name: "PHP"
-    level: "2-3"
-  - name: "MariaDB"
-    level: "2-3"
-  - name: "C"
-    level: "1-3"
-  - name: "C++"
-    level: "1-3"
-  - name: "Javascript"
-    level: "1-3"
-  - name: "NGINX"
-    level: "1-3"
+    keywords:
+      - "Python"
+      - "Java"
+      - "PHP"
+      - "MariaDB"
+      - "C++"
+      - "Javascript"
+      - "NGINX"
 
 publications:
+  - name: "Anomaly-Aware Adaptation Approach for Self-Adaptive Cyber-Physical System of Systems Using Reinforcement Learning"
+    authors:
+      - "Eunho Cho"
+      - "Gwangoo Yeo"
+      - "Eunkyoung Jee"
+      - "Doo-Hwan Bae"
+    publisher: "17th Annual System of Systems Engineering Conference (SoSE) 2022"
+    releaseDate: "2022-06-08"
   - name: "A Modeling Method to Represent Geographical Information of a System-of-Systems"
     authors:
       - "Young-Min Baek"
@@ -180,7 +181,7 @@ publications:
     authors:
       - "Eunho Cho"
       - "Yong-Jun Shin"
-      - "Eun-Kyoung Jee"
+      - "Eunkyoung Jee"
       - "Doo-Hwan Bae"
     publisher: "Korea Software Congress (KSC) 2019"
     releaseDate: "2019-12-18"
@@ -199,16 +200,20 @@ publications:
 #    summary: ""
 
 projects:
+  - name: ""
+    nameKor: ""
+    giver: ""
+    startDate: "2022-03-01"
+    website: "https://becs.kaist.ac.kr/becs/"
   - name: "Development of Dependable and Highly Usable Big Data Platform, and Analysis and Prediction Services Technology in Edge Clouds"
     nameKor: "엣지 클라우드에서 고신뢰 고사용성 빅데이터 플랫폼 및 분석 예측 서비스 기술 개발"
     giver: "Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT, Korea"
     startDate: "2020-07-01"
-    endDate: ""
+    website: "https://becs.kaist.ac.kr/becs/"
   - name: "(SW STAR LAB) Software R&D for Model-Based Analysis and Verification of Higher-Order Large Complex System"
     nameKor: "(SW 스타랩) 모델 기반의 초대형 복잡 시스템 분석 및 검증 SW 개발"
     giver: "Institute for Information & communications Technology Promotion (IITP), Ministry of Science, ICT and Future Planning, Korea"
     startDate: "2020-03-01"
-    endDate: ""
 #    website: "https://piedpiper.com"
 
 
