@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-hydejack"
-  spec.version       = "9.1.0"
+  spec.version       = "9.1.6"
   spec.authors       = ["Florian Klampfer"]
   spec.email         = ["mail@qwtel.com"]
 
@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|_config.yml|README|LICENSE|NOTICE|CHANGELOG)}i) }
 
-  spec.required_ruby_version = "~> 2.6"
+  spec.required_ruby_version = ">= 2.6"
 
   spec.add_runtime_dependency "jekyll", ">= 3.8", "< 5.0"
   spec.add_runtime_dependency "jekyll-include-cache", "~> 0.2"
