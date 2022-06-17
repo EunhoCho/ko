@@ -200,9 +200,9 @@ publications:
 #    summary: ""
 
 projects:
-  - name: ""
-    nameKor: ""
-    giver: ""
+  - name: "Research on an Edge Computing based AI Service Platform for Proactive Traffic Safety using Big Data"
+    nameKor: "엣지 컴퓨팅 기반 빅데이터 활용 선제적 교통안전 AI 서비스 플랫폼 기술 연구"
+    giver: "Ministry of Land, Infrastructure, and Transport, Korea"
     startDate: "2022-03-01"
     website: "https://becs.kaist.ac.kr/becs/"
   - name: "Development of Dependable and Highly Usable Big Data Platform, and Analysis and Prediction Services Technology in Edge Clouds"
