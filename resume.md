@@ -15,10 +15,10 @@ full_column:
   - work
   - volunteer
   - awards
-  - languages
-  - skills
   - publications
   - project
+  - languages
+  - skills
 
 left_column:
   - references
