@@ -204,7 +204,6 @@ projects:
     nameKor: "엣지 컴퓨팅 기반 빅데이터 활용 선제적 교통안전 AI 서비스 플랫폼 기술 연구"
     giver: "Ministry of Land, Infrastructure, and Transport, Korea"
     startDate: "2022-03-01"
-    website: "https://becs.kaist.ac.kr/becs/"
   - name: "Development of Dependable and Highly Usable Big Data Platform, and Analysis and Prediction Services Technology in Edge Clouds"
     nameKor: "엣지 클라우드에서 고신뢰 고사용성 빅데이터 플랫폼 및 분석 예측 서비스 기술 개발"
     giver: "Institute of Information & Communications Technology Planning & Evaluation, Ministry of Science and ICT, Korea"
