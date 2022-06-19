@@ -1,0 +1,161 @@
+# Strings
+# =======================================================================================
+# This file contains all soft-coded strings of the theme.
+# You can edit them here if you want to change the wording of certain phrases,
+# e.g. maybe you prefer "Fetching…" to "Loading…", etc.
+#
+# You can also use this to "translate" the theme into different langauges,
+# but note that this may not work in all situations,
+# especially for languages that differ significantly from English.
+
+# Free version
+# ---------------------------------------------------------------------------------------
+home:                  홈
+pages:                 페이지
+posts:                 게시글
+about:                 About
+related_posts:         관련 게시글
+other_projects:        다른 프로젝트
+comments:              댓글
+jump_to:               Jump to
+navigation:            Navigation
+social:                Social
+links:                 Links
+pagination:            Pagination
+newer:                 이후 게시물
+older:                 이전 게시물
+forward:               앞으로
+back:                  뒤로
+permalink:             Permalink
+permalink_icon:        content-hash
+templates:             템플릿
+present:               현재
+toc:                   목차
+note:                  Note
+description:           설명
+search:                검색
+search_placeholder:    검색어를 입력하세요…
+
+loading:               로딩중…
+redirecting:           리다이렉트중…
+
+continue_reading:      >
+  <!--post_title-->에서 계속 읽기
+
+cookies_banner:
+  text:                >
+    This site uses cookies. [Cookies Policy](/cookies-policy/).
+  okay:                Okay
+
+not_found:
+  title:               '404: Page Not Found'
+  message:             |
+    <!--home_link-->.
+  home_link:           돌아가기
+
+offline:
+  title:               'Offline'
+  message:             |
+    죄송합니다. 오프라인 상태입니다.
+    <!--home_link-->.
+  home_link:           돌아가기
+
+error:
+  title:               오류
+  message:             |
+    죄송합니다. <!--link--> 로딩 중에 오류가 발생했습니다.
+
+# Separators
+# ---------------------------------------------------------------------------------------
+posted:                'Posted'
+colon:                 ':'
+separator:             '|'
+category_start:        'in '
+category_spearator:    ' / '
+tag_start:             'on '
+tag_separator:         ', '
+from_to_separator:     '–'
+
+# Date formats
+# ---------------------------------------------------------------------------------------
+date_formats:
+  post:                '%Y %b %d'
+  related_post:        '%Y %b %d'
+  list_group_by:       '%Y'
+  list_entry:          '%b %d'
+  project:             '%Y'
+  projects_group_by:   '%Y'
+  resume:              '%Y %b'
+
+
+# PRO Version
+# ---------------------------------------------------------------------------------------
+# If you don't own the PRO version of Hydejack, modifying these will have no effect.
+
+tinyletter:
+  title:               Commercial break
+  label:               Email
+  placeholder:         Enter your email address
+  button:              Subscribe
+  message:             |
+    Pay the *iron price* for this theme by adding yourself to the mailing list.
+    Receive development updates, advanced tutorials,
+    and anything else I can come up with as it relates to **Hydejack**.
+
+    <!--form-->
+
+    No 3rd party products, no spam. Emails handled by [Tinyletter](https://tinyletter.com/)
+    {:.faded}
+
+welcome:
+  more_projects:       <!--projects_title--> 에서 계속 읽기
+  more_posts:          <!--posts_title--> 에서 계속 읽기
+
+resume:
+  location:            주소
+  location_separator:  ', '
+  email:               이메일
+  phone:               전화 번호
+  website:             웹사이트
+  work:                경력 사항
+  work_title:          <!--position-->, <!--company-->
+  highlights:          Highlights
+  volunteer:           봉사
+  volunteer_title:     <!--position-->, <!--organization-->
+  education:           학업 사항
+  education_title:     <!--study_type-->, <!--area-->, <!--institution-->
+  courses:             Courses
+  awards:              장학 및 수상 내역
+  awards_title:        <!--title-->, <!--awarder-->
+  publications:        논문 내역
+  publications_title:  <!--name-->
+  references:          추천사
+  languages:           언어
+  fluency:             능숙도
+  skills:              특기
+  level:               수준
+  interests:           취미
+  summary:             요약
+  keywords:            키워드
+  print:               Print
+  download_pdf:        PDF
+  download_vcf:        vCard
+  download_json:       JSON
+  icons:
+    fallback:          icon-link
+    location:          icon-location
+    born:              icon-quill
+    citizenship:       icon-flag
+    maritalStatus:     icon-man-woman
+    email:             icon-envelop
+    phone:             icon-phone
+    website:           icon-home3
+    work:              icon-briefcase
+    volunteer:         icon-earth
+    education:         icon-library
+    awards:            icon-trophy
+    publications:      icon-book
+    references:        icon-quotes-right
+    languages:         icon-bubbles
+    skills:            icon-wrench
+    interests:         icon-heart
