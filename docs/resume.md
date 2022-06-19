@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: 이력서
+title: Résumé
 menu: true
 order: 0
 permalink: /resume
