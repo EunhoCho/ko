@@ -9,8 +9,8 @@ title: Blog
 slug: blog
 
 menu: true
-submenu: true
-order: 1
+submenu: false
+order: 0
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 # description: >
