@@ -3,14 +3,14 @@
 layout: list
 
 # The title of the tag's page.
-title: Research
+title: Dev
 
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
-slug: research
+slug: dev
 
 menu: true
-submenu: true
-order: 10
+submenu: false
+order: 20
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 # description: >
