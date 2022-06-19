@@ -14,35 +14,20 @@
 
     {% assign sep = strings.resume.location_separator | default:"," %}
     <dd class="bold adr p-adr h-adr" property="address" typeof="PostalAddress">
-      {% if location.address.size > 0 %}
-        <span class="street-address p-street-address" property="streetAddress">{{ location.address }}</span>{{ sep }}
-      {% endif %}
-
       {% if location.postalCode.size > 0 %}
-        <span class="postal-code p-postal-code" property="postalCode">{{ location.postalCode }}</span>{{ sep }}
-      {% endif %}
-
-      {% if location.city.size > 0 %}
-        <span class="locality p-locality" property="addressLocality">{{ location.city }}</span>{{ sep }}
+        <span class="postal-code p-postal-code" property="postalCode">({{ location.postalCode }})</span>{{ sep }}
       {% endif %}
 
       {% if location.region.size > 0 %}
         <span class="region p-region" property="addressRegion">{{ location.region }}</span>{{ sep }}
       {% endif %}
 
-      {% if location.countryCode.size > 0 %}
-        {% assign countryCode = location.countryCode | upcase %}
-        {% if major >= 4 and minor >= 1 %}
-          {% assign country = site.data.countries | find:"code",countryCode %}
-        {% else %}
-          {% assign country = site.data.countries | where:"code",countryCode | first %}
-        {% endif %}
-        {% if country %}
-          <meta property="addressCountry" content="{{ location.countryCode }}"/>
-          <span class="country-name p-country-name">{{ country.name }}</span>
-        {% else %}
-          <span class="country-name p-country-name" property="addressCountry">{{ location.countryCode }}</span>
-        {% endif %}
+      {% if location.city.size > 0 %}
+        <span class="locality p-locality" property="addressLocality">{{ location.city }}</span>{{ sep }}
+      {% endif %}
+
+      {% if location.address.size > 0 %}
+        <span class="street-address p-street-address" property="streetAddress">{{ location.address }}</span>{{ sep }}
       {% endif %}
     </dd>
   {% endif %}
