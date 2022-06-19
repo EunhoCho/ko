@@ -1,0 +1,236 @@
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+
+basics:
+  name: "조은호"
+  label: "KAIST 전산학부 웹 공학 및 서비스 컴퓨팅 연구실 박사과정 학생"
+  picture: /assets/img/about.jpg
+  email: "ehcho@kaist.ac.kr"
+  phone: "+82-10-7702-7923"
+  website: "https://eunhocho.github.io"
+  summary: >
+    SE4AI, Cyber-Physical System, Self-Adaptive System, System of Systems 등을 연구하고 있습니다.
+  location:
+    address: "대학로 291 (구성동, 한국과학기술원), N1 522"
+    postalCode: "34141"
+    city: "유성구"
+    countryCode: "KR"
+    region: "대전광역시"
+#  profiles:
+#    - network: "Twitter"
+#      username: "RHendricksCEO"
+#      url: ""
+
+#education:
+#  - institution: "KAIST"
+#    area: "School of Computing"
+#    studyType: "Ph.D."
+#    startDate: "2022-03-01"
+#    gpa: "3.98"
+#    max_gpa: "4.30"
+#    advisor: "In-Young Ko"
+#  - institution: "KAIST"
+#    area: "School of Computing"
+#    studyType: "Master"
+#    startDate: "2020-03-01"
+#    endDate: "2022-02-28"
+#    advisor: "Doo-Hwan Bae"
+#  - institution: "KAIST"
+#    area: "School of Computing & School of Business and Technology Management"
+#    studyType: "Bachelor"
+#    startDate: "2015-03-01"
+#    endDate: "2020-02-29"
+#    gpa: "3.50"
+#    max_gpa: "4.30"
+
+work:
+  - company: "KAIST"
+    position: "수업 조교 (CS350, 소프트웨어공학개론)"
+    startDate: "2022-03-01"
+    endDate: "2022-06-30"
+  - company: "KAIST"
+    position: "수업 조교 (CS350, 소프트웨어공학개론)"
+    startDate: "2020-09-01"
+    endDate: "2021-06-30"
+  - company: "KAIST"
+    position: "실습 조교 (CS101, 프로그래밍기초)"
+    startDate: "2018-09-01"
+    endDate: "2018-12-31"
+  - company: "IFE"
+    position: "Intern"
+    startDate: "2018-06-01"
+    endDate: "2018-08-31"
+    website: "https://ife.no"
+  - company: "카카오페이지"
+    position: "인턴"
+    startDate: "2017-12-21"
+    endDate: "2018-02-20"
+    website: "https://kakaoent.com"
+#  - company: "Pied Piper"
+#    position: "CEO/President"
+#    website: "https://piedpiper.com"
+#    startDate: "2013-12-01"
+#    endDate: ""
+#    summary: >
+#      Text
+#    highlights:
+#      - ""
+
+volunteer:
+  - organization: "대덕교회"
+    position: "중등부 주일학교 교사"
+    website: "https://ddpc.or.kr"
+    startDate: "2021-01-01"
+  - organization: "배움을 나누는 사람들"
+    position: "교사"
+    website: "https://blog.naver.com/edusharebns/"
+    startDate: "2015-01-01"
+    endDate: "2016-02-29"
+    summary: "기초생활수급자, 차상위계층 등의 학생들을 대상으로 교육 봉사를 진행하는 비영리 단체"
+#    highlights:
+#      - "Awarded 'Teacher of the Month'"
+
+awards:
+  - title: "우수발표논문상"
+    date: "2020-12-22"
+    awarder: "2020 한국소프트웨어종합학술대회 (KSC)"
+  - title: "최우수논문상"
+    date: "2018-12-23"
+    awarder: "2018 한국소프트웨어종합학술대회 (KSC)"
+  - title: "KAIST 대학원 국비 장학생"
+    startDate: "2020-03-01"
+    awarder: "대한민국 정부"
+  - title: "이공계 국가 우수 장학생"
+    startDate: "2015-03-01"
+    endDate: "2020-02-28"
+    awarder: "대한민국 정부"
+#  - title: "Digital Compression Pioneer Award"
+#    date: "2014-11-01"
+#    awarder: "Techcrunch"
+#    summary: "There is no spoon."
+
+publications:
+  - name: "Anomaly-Aware Adaptation Approach for Self-Adaptive Cyber-Physical System of Systems Using Reinforcement Learning"
+    authors:
+      - "Eunho Cho"
+      - "Gwangoo Yeo"
+      - "Eunkyoung Jee"
+      - "Doo-Hwan Bae"
+    publisher: "17th Annual System of Systems Engineering Conference (SoSE) 2022"
+    releaseDate: "2022-06-08"
+  - name: "A Modeling Method to Represent Geographical Information of a System-of-Systems"
+    authors:
+      - "Young-Min Baek"
+      - "Eunho Cho"
+      - "Yong-Jun Shin"
+      - "Doo-Hwan Bae"
+    publisher: "16th Annual System of Systems Engineering Conference (SoSE) 2021"
+    releaseDate: "2021-06-14"
+    website: "https://eunhocho.github.io/assets/publications/SoSE2021.pdf"
+  - name: "DNN Model Deployment on Distributed Edges"
+    authors:
+      - "Eunho Cho"
+      - "Juyeon Yoon"
+      - "Daehyeon Back"
+      - "Dongman Lee"
+      - "Doo-Hwan Bae"
+    publisher: "International Workshop on Big data driven Edge Cloud Services (BECS) 2021"
+    releaseDate: "2021-05-18"
+    website: "https://eunhocho.github.io/assets/publications/BECS2021.pdf"
+  - name: "PASTA: An Efficient Proactive Adaptation Approach Based on Statistical Model Checking for Self-Adaptive Systems"
+    authors:
+      - "Yong-Jun Shin"
+      - "Eunho Cho"
+      - "Doo-Hwan Bae"
+    publisher: "24th International Conference on Fundamental Approaches to Software Engineering (FASE) 2021"
+    releaseDate: "2021-03-27"
+    website: "https://eunhocho.github.io/assets/publications/FASE2021.pdf"
+  - name: "시스템 오브 시스템즈의 런타임 검증 속성 명세 유형 분석 및 적용"
+    authors:
+      - "Eunho Cho"
+      - "Sumin Park"
+      - "Lingjun Liu"
+      - "Chua Kiat Kian Anthony"
+      - "Doo-Hwan Bae"
+    publisher: "2020 한국소프트웨어종합학술대회 (KSC)"
+    releaseDate: "2020-12-21"
+    highlights: "우수발표논문상"
+    website: "https://eunhocho.github.io/assets/publications/KSC2020.pdf"
+  - name: "결함-공격 트리 기반 안전성 및 보안 분석 기법 비교"
+    authors:
+      - "Eunho Cho"
+      - "Yong-Jun Shin"
+      - "Eunkyoung Jee"
+      - "Doo-Hwan Bae"
+    publisher: "2019 한국소프트웨어종합학술대회 (KSC)"
+    releaseDate: "2019-12-18"
+    website: "https://eunhocho.github.io/assets/publications/KSC2019.pdf"
+  - name: "데이터 기반 교통 흐름 시스템 다이내믹스 환경 모델 생성 및 추론 기법"
+    authors:
+      - "Tae-Hwan Kim"
+      - "Eunho Cho"
+      - "Yong-Jun Shin"
+      - "Doo-Hwan Bae"
+    publisher: "2018 한국소프트웨어종합학술대회 (KSC)"
+    releaseDate: "2018-12-19"
+    highlights: "최우수논문상"
+    website: "https://eunhocho.github.io/assets/publications/KSC2018.pdf"
+#    summary: ""
+
+projects:
+  - name: "Research on an Edge Computing based AI Service Platform for Proactive Traffic Safety using Big Data"
+    nameKor: "엣지 컴퓨팅 기반 빅데이터 활용 선제적 교통안전 AI 서비스 플랫폼 기술 연구"
+    giver: "대한민국 국토교통부"
+    startDate: "2022-03-01"
+  - name: "Development of Dependable and Highly Usable Big Data Platform, and Analysis and Prediction Services Technology in Edge Clouds"
+    nameKor: "엣지 클라우드에서 고신뢰 고사용성 빅데이터 플랫폼 및 분석 예측 서비스 기술 개발"
+    giver: "대한민국 과학기술정보통신부 산하 정보통신기획평가원"
+    startDate: "2020-07-01"
+    website: "https://becs.kaist.ac.kr/becs/"
+  - name: "(SW STAR LAB) Software R&D for Model-Based Analysis and Verification of Higher-Order Large Complex System"
+    nameKor: "(SW 스타랩) 모델 기반의 초대형 복잡 시스템 분석 및 검증 SW 개발"
+    giver: "대한민국 과학기술정보통신부 산하 정보통신기획평가원"
+    startDate: "2020-03-01"
+#    website: "https://piedpiper.com"
+
+# 5 or "5-5" or "native-or-bilingual-proficiency" or "native-speaker"
+# 4 or "4-5" or "full-professional-proficiency"
+# 3 or "3-5" or "professional-working-proficiency"
+# 2 or "2-5" or "limited-working-proficiency"
+# 1 or "1-5" or "elementary-proficiency"
+# 0 or "0-5" or "no-proficiency"
+#languages:
+#  - language: "Korean"
+#    fluency: "Native Speaker"
+#  - language: "English"
+#    fluency: "Professional Working Proficiency"
+
+# 3 or "3-3" or "master" or "expert" or "senior" or "professional"
+# 2 or "2-3" or "intermediate" or "amateur"
+# 1 or "1-3" or "beginner" or "novice" or "junior"
+# 0 or "0-3"
+#skills:
+#  - name: "Development"
+#    level: "3-3"
+#    keywords:
+#      - "Python"
+#      - "Java"
+#      - "PHP"
+#      - "MariaDB"
+#      - "C++"
+#      - "Javascript"
+#      - "NGINX"
+
+#references:
+#  - name: "Erlich Bachman"
+#    reference: >
+#      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#      Company proved that he will be a valuable addition to any company.
+
+#interests:
+#  - name: "Chorus"
+#    keywords:
+#      - "Bass-Baritone"
+#      - "Gospels"
+#      - "Musicals"
