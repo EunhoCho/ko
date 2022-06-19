@@ -6,6 +6,15 @@
         <span class="sr-only">{{ site.data.strings.navigation | default:"Navigation" }}</span>
         <span class="icon-menu"></span>
       </a>
+      <a id="_lang-change" class="nav-btn no-hover" href="#" onclick="language_change()">
+        <script>
+          function language_change() {
+            location.href = 'https://eunhocho.github.io' + '/ko' + window.location.pathname;
+          }
+        </script>
+        <span class="sr-only">"Language Change"</span>
+        <span><h3 style="margin: 0 0 0">ko</h3></span>
+      </a>
       <div class="nav-span"></div>
     </div>
   </div>
