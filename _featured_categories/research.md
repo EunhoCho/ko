@@ -10,7 +10,7 @@ slug: research
 
 menu: true
 submenu: true
-order: 10
+order: 20
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 # description: >
