@@ -113,20 +113,20 @@ welcome:
 
 resume:
   location:            주소
-  location_separator:  ', '
+  location_separator:  ' '
   email:               이메일
   phone:               전화 번호
   website:             웹사이트
   work:                경력 사항
-  work_title:          <!--position-->, <!--company-->
+  work_title:          <!--company--> <!--position-->
   highlights:          Highlights
   volunteer:           봉사
-  volunteer_title:     <!--position-->, <!--organization-->
+  volunteer_title:     <!--organization--> <!--position-->
   education:           학업 사항
   education_title:     <!--study_type-->, <!--area-->, <!--institution-->
   courses:             Courses
   awards:              장학 및 수상 내역
-  awards_title:        <!--title-->, <!--awarder-->
+  awards_title:        <!--title--> (<!--awarder-->)
   publications:        논문 내역
   publications_title:  <!--name-->
   references:          추천사
