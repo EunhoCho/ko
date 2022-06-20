@@ -4,6 +4,7 @@ title: 다국어를 지원하는 Github 블로그 만들기
 subtitle: 바보 같아 보이지만.. 단순하기도 한 방법
 category: dev
 thumbnail: /assets/img/blog/2022-06-20-github_pages_logo.jpg
+comments: true
 sitemap: false
 ---
 
