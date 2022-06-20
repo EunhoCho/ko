@@ -123,7 +123,7 @@ resume:
   volunteer:           봉사
   volunteer_title:     <!--organization--> <!--position-->
   education:           학업 사항
-  education_title:     <!--study_type-->, <!--area-->, <!--institution-->
+  education_title:     <!--institution--> <!--area--> <!--study_type-->
   courses:             Courses
   awards:              장학 및 수상 내역
   awards_title:        <!--title--> (<!--awarder-->)
