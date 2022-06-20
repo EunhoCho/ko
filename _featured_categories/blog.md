@@ -10,7 +10,7 @@ slug: blog
 
 menu: true
 submenu: false
-order: 0
+order: 10
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 # description: >

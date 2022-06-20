@@ -5,5 +5,5 @@ slug: se4ai
 category: research
 menu: false
 submenu: true
-order: 11
+order: 21
 ---
