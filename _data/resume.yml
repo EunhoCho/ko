@@ -95,7 +95,7 @@ awards:
   - title: "우수발표논문상"
     date: "2020-12-22"
     awarder: "2020 한국소프트웨어종합학술대회 (KSC)"
-  - title: "최우수논문상"
+  - title: "학부생 최우수논문상"
     date: "2018-12-23"
     awarder: "2018 한국소프트웨어종합학술대회 (KSC)"
   - title: "KAIST 대학원 국비 장학생"
@@ -111,6 +111,17 @@ awards:
 #    summary: "There is no spoon."
 
 publications:
+  - name: "점자 인식 딥러닝 모델을 이용한 점자 문서 번역 애플리케이션 개발"
+    authors:
+      - "Se-Yeon Kim"
+      - "Na-Yeon Kim"
+      - "Yu-jin Yang"
+      - "Eunho Cho"
+      - "Eunkyoung Jee"
+    publisher: "2022 한국컴퓨터종합학술대회 (KCC)"
+    releaseDate: "2022-06-29"
+    highlights: "학부생 최우수논문상"
+    website: "https://eunhocho.github.io/assets/publications/KCC2022.pdf"
   - name: "Anomaly-Aware Adaptation Approach for Self-Adaptive Cyber-Physical System of Systems Using Reinforcement Learning"
     authors:
       - "Eunho Cho"
@@ -119,6 +130,7 @@ publications:
       - "Doo-Hwan Bae"
     publisher: "17th Annual System of Systems Engineering Conference (SoSE) 2022"
     releaseDate: "2022-06-08"
+    website: "https://eunhocho.github.io/assets/publications/SoSE2022.pdf"
   - name: "A Modeling Method to Represent Geographical Information of a System-of-Systems"
     authors:
       - "Young-Min Baek"
@@ -174,7 +186,7 @@ publications:
       - "Doo-Hwan Bae"
     publisher: "2018 한국소프트웨어종합학술대회 (KSC)"
     releaseDate: "2018-12-19"
-    highlights: "최우수논문상"
+    highlights: "학부생 최우수논문상"
     website: "https://eunhocho.github.io/assets/publications/KSC2018.pdf"
 #    summary: ""
 
